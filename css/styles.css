@@ -1,0 +1,258 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin-top: 0px;
+    margin-left: 0;
+    border-top: 5px solid #2ecc71;
+}
+div {
+    font-family: "Raleway Semibold";
+    position: inherit;
+}
+.main {
+    height: 606px;
+    width: 100%;
+    background: url(../images/main.png) 100% 100% no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    border-top: 8px solid #2ecc71;
+
+}
+
+.menu {
+    height: 50px;
+    /*box-shadow:0 0 0 128px rgba(0, 0, 0, 0.33) inset; */
+    /*background-size: cover;*/
+    overflow: hidden;
+    position: fixed;
+    margin-top: 0px;
+    clear: both;
+}
+.logo {
+    margin-left: 230px;
+    margin-top: -445px;
+    position: absolute;
+
+}
+.hand {
+    margin-left: 648px;
+    margin-top: -507px;
+    position: absolute;
+
+}
+.slogan {
+    margin-left: 230px;
+    margin-top: -340px;
+    font-size: 24px;
+    color: #ffffff;;
+    position: absolute;
+}
+.menu {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.wrapper {
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.75);
+    width: 100%;
+    height: 150vw;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    width: 25vw;
+}
+.container {
+    margin: 0 auto;
+}
+.products {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.product-image img {
+    display: block;
+    margin: 0 auto;
+    width: 15vw;
+    /*width: 200px;*/
+    border-radius: 40px;
+
+}
+.button-buy {
+    padding-top: 1vw;
+}
+
+.button-buy button {
+    width: 100px;
+    height: 50px;
+    background-color: #2ecc71;
+    outline:none;
+    border-radius: 5px;
+}
+button {
+    outline:none;
+    color: black;
+
+}
+.first-item {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 2px;
+    height: 35vw;
+    background-color: white;
+}
+.title {
+    padding-top: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    text-decoration: overline;
+}
+h2 {
+    width: 15vw;
+}
+.dropping-menu {
+
+}
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navigation */
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+.first-itemf a {
+    padding: 10px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
+    margin-left: 0;
+    border-top: 2px solid #2ecc71;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    display: inline-table;
+}
+nav ul li {
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+nav ul li:hover {
+    background: rgba(0,0,0,.15);
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li {
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+nav ul li a {
+    display: block;
+    padding: 30px 20px;
+    color: #222;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul ul {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+nav ul ul li {
+    float: none; position: relative;
+}
+nav ul ul li a {
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top:0;
+}
+.auth {
+
+}
+#butt {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-bottom: 80%;
+    position: fixed;
+}
+
+#footer {
+    width: 100%;
+    height: 5vw;
+    background-color: #2ecc71;
+    box-shadow: 10px 10px 7px 2px rgba(0,0,0,0.75);
+    margin-bottom: 0 auto;
+    position: relative;
+}
+#footer h4 {;
+    width: 100%;
+    padding: 20px;
+    height: 5vw;
+    position: relative;
+    background-color: #2ecc71;
+    margin: 2.5vw;
+}
+.admin-block {
+    margin-top: 5vw;
+}
+
+.admin_img {
+    width: 50px;
+}
+.table {
+    width: 100%;
+    border: 1px solid black;
+}
+.table td {
+    padding: 25px;
+    height: 100px;
+}
+.table tr{
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+}
